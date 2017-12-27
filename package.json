@@ -1,0 +1,24 @@
+{
+  "name": "mongonation",
+  "version": "0.1.0",
+  "description": "A typescript library with decorators for Mongoose",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgnationFR/Mongonation.git"
+  },
+  "author": "Nicolas Chevalier <nicolas.chevalier@ignation.io> (http://ignation.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IgnationFR/Mongonation/issues"
+  },
+  "homepage": "https://github.com/IgnationFR/Mongonation#readme",
+  "devDependencies": {
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.2"
+  }
+}
