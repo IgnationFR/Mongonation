@@ -18,7 +18,11 @@
   },
   "homepage": "https://github.com/IgnationFR/Mongonation#readme",
   "devDependencies": {
+    "@types/mongoose": "^4.7.30",
     "tslint": "^5.8.0",
     "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "mongoose": "^4.13.7"
   }
 }
