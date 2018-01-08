@@ -1,5 +1,5 @@
 {
-  "name": "mongonation",
+  "name": "@ignation/mongonation",
   "version": "0.1.0",
   "description": "A typescript library with decorators for Mongoose",
   "main": "dist/index.js",
