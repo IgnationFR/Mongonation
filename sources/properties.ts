@@ -37,7 +37,7 @@ export function Array(typename: string) {
     return (target: any, propertyKey: string | symbol) => {
         let type = Reflect.getMetadata("design:type", target, propertyKey);
 
-        if (type === Array) {
+        if (type === global.Array) {
             if (isPrimitive(typename)) {
                 type = [{
                     type: typename,
